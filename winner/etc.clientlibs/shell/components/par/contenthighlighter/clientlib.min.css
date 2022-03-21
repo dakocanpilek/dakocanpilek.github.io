@@ -1,0 +1,21 @@
+.shell.module.rss_wrapper .items_wrapper{overflow:hidden;position:relative}
+.shell.module.rss_wrapper .icon_type_rss{padding:3px 0 3px 22px}
+.rtl .shell.module.rss_wrapper .icon_type_rss{padding:3px 22px 3px 0}
+.shell.module.rss_wrapper .items{width:100%!important}
+.shell.module.rss_wrapper .rss_detail_wrapper{width:100%!important;height:257px!important}
+.js.cqview .shell.module.rss_wrapper .rss_detail_wrapper:first-child{display:block}
+.js.cqview .shell.module.rss_wrapper .rss_detail_wrapper{display:none}
+.js.cqview .shell.module.rss_wrapper .rss_detail_wrapper.slide{display:block}
+.shell.module.rss_wrapper .rss_detail{margin:0 6px 0 6px}
+.shell.module.rss_wrapper .rss_detail img{margin:0 6px 0 0;float:left}
+.rtl .shell.module.rss_wrapper .rss_detail img{margin:0 0 0 6px;float:right}
+.shell.module.rss_wrapper .pager{display:none;text-align:center;overflow:hidden;margin:6px}
+.shell.module.rss_wrapper .pager.shell_carousel_pager{display:block}
+.shell.module.rss_wrapper .shell_carousel_pager a{display:inline-block;width:12px;height:12px;margin:0 6px;text-align:center;vertical-align:middle;text-decoration:none;font-weight:bold}
+.shell.module.rss_wrapper .shell_carousel_pager a span{visibility:hidden}
+@media screen and (max-width:767px){.mobile .shell.module.rss_wrapper .rss_detail{margin:0}
+.mobile .shell.module.rss_wrapper .rss_detail h4,.mobile .shell.module.rss_wrapper .rss_detail p{margin:6px}
+.mobile .shell.module.rss_wrapper .rss_detail img{margin:0 6px 0 6px}
+.mobile .shell.module.rss_wrapper .rss_detail img{float:none}
+.mobile .shell.module.rss_wrapper .pager a{-moz-border-radius:6px;border-radius:6px}
+}

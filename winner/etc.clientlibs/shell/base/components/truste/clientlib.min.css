@@ -1,0 +1,3 @@
+#shell-truste{position:fixed;right:0;bottom:0}
+@media screen and (max-width:767px){#shell-truste{position:static;text-align:center}
+}
