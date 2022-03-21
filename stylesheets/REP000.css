@@ -1,0 +1,203 @@
+
+        ul.treeview-list
+        {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li.treeview-item
+        {
+            float: left;
+            width: 338px;
+            padding-right: 4px;
+        }
+        div.text
+        {
+            font: 13px Verdana, 'Segoe UI' , Arial, sans-serif;
+            color: #4888a2;
+            padding: 6px 18px;
+            display: block;
+        }
+        .RadTabStrip .rtsLink img
+        {
+            border: 0;
+            position: relative;
+            right: -3px;
+            margin-right: 5px;
+            margin-left: 5px;
+            margin-top: 1px;
+        }
+        #RadTabStripFleetExplorer .RadTabStrip .rtsLink img
+        {
+            border: 0;
+            position: relative;
+            right: -5px;
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-top: 1px;
+        }
+        #FleetTreeView
+        {
+            margin-top: 5px;
+            width: 100%;
+        }
+        .datePickerTable
+        {
+            margin-top: 0px;
+            margin-left: 30px;
+            font-size: 0.0em;
+            text-align: center;
+            vertical-align: top;
+            border-collapse: collapse;
+        }
+        .datePickerTableIncrementTd
+        {
+            vertical-align: bottom;
+            text-align: left;
+            border-top-style: groove;
+            border-top-width: 1px;
+            border-left-style: groove;
+            border-left-width: 1px;
+            border-right-style: groove;
+            border-right-width: 1px;
+            width: 70px;
+        }
+        .datePickerTableDecrementTd
+        {
+            vertical-align: top;
+            text-align: left;
+            border-bottom-style: groove;
+            border-bottom-width: 1px;
+            border-left-style: groove;
+            border-left-width: 1px;
+            border-right-style: groove;
+            border-right-width: 1px;
+        }
+        .datePickerTableSliderTd
+        {
+            vertical-align: top;
+            text-align: center;
+            border-left-style: groove;
+            border-left-width: 1px;
+            border-right-style: groove;
+            border-right-width: 1px;
+        }
+        #datePickerPane
+        {
+            margin-left: 30px;
+        }
+        .HiddenItems .rslItem span
+        {
+            visibility: hidden;
+        }
+        .errorText
+        {
+            font-size: small;
+            color: Red;
+        }
+   
+        .FleetExplorerTree
+        {
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            border-bottom-color: #CECECE;
+            margin-top: 68px;
+        }
+        .RadTreeView_Default .rtLI
+        {
+            padding-bottom: 0px;
+        }
+        .RadTreeView_Default .rtUL .rtUL
+        {
+            margin-top: -5px;
+            margin-left: 25px;
+        }
+        .RadTreeView_Default .rtLast
+        {
+            padding-bottom: 0; /* prevent double-spacing */
+        }
+        .RadTreeView_Default_disabled span.rtIn, .RadTreeView_Default .rtDisabled span.rtIn
+        {
+            color: Black;
+            font-style: italic;
+        }
+        .RadTreeView_Default .rtPlus
+        {
+            visibility: hidden;
+        }
+        .RadTreeView_Default .rtMinus
+        {
+            visibility: hidden;
+        }
+        .FilterContextTreeEmpty
+        {
+            visibility: hidden;
+        }
+		.hiddenFields
+        {
+    	    visibility:hidden;
+        }
+        .RefreshButton
+		{
+			position: absolute;
+			top: 65px;
+			left: 33px; 
+			z-index:100;  
+		}
+		
+		.ExportButton
+		{
+			position: absolute;
+			top: 63px;
+			left: 65px; 
+			z-index:100;  
+		}
+		
+	     .curFilterWrapper
+        { 
+			margin:0 auto;
+		    float:left;
+			height: 65px;
+    		width:100% ;
+			/*background:#043199 0 -2100px repeat-x url('../img/sprite.gif'); */
+			background: none repeat scroll 0 0 #C9C9C9;
+            color:#fff; 
+         }	
+		.curFilterIconTD
+		{
+		 float:left;
+         width:40px;
+         padding:0.5%;
+         margin-top:10px;
+         margin-bottom:10px;
+         margin-left:5px;			
+		}
+		
+	
+		.curFilterNameTD
+		{
+            margin-top:2px;			
+            font-size: 0.7em;
+            font-weight:bold;
+			font-family: Verdana;
+            text-align:center;
+            padding-right:20px;
+
+		}
+		
+		.curFilterImageTD
+		{	
+         padding:0.5%;
+         margin-top:0px;	
+         vertical-align:middle;
+         text-align:left;
+         padding-right:20px;
+         padding-left:5px;
+         background-color:#EAEAEA;
+         
+
+		}
+		
+
+    
+		

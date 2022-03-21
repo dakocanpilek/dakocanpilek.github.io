@@ -1,0 +1,277 @@
+body {
+}
+
+/* MAIN PAGE */
+#wrap {
+	margin: 0 auto;
+	position: relative;
+	width: 985px;
+	z-index: 1;
+}
+#wrap #header {
+	height: 50px;
+	padding-bottom: 50px;
+	position: relative;
+	z-index: 101;
+}
+#wrap #content {
+}
+#wrap #header .context_title {
+	position: relative;
+	font-weight: bold;
+	text-align: center;
+	top: -5px;
+}
+#wrap #header .company {
+	float: right;
+	padding-right: 5px;
+	color: Navy;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+#wrap #footer {
+	margin: 20px 40px;
+}
+/* HEADER ********************************************************/
+#header {
+}
+#header h1#slogo {
+	background: url(../images/logo.gif) no-repeat;
+	height: 90px;
+	left: 50px;
+	position: relative;
+	text-indent: -9999px;
+	top: 30px;
+	width: 450px;
+}
+#header h1#logo {
+	background: url(../images/FuelSavePartner_Logo.jpg) no-repeat;
+	height: 90px;
+	left: 50px;
+	position: relative;
+	text-indent: -9999px;
+	top: 30px;
+	width: 450px;
+}
+#header h1#shlogo {
+	left: 45px;
+	position: relative;
+	top: 20px;
+}
+#header h1#logo a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+#header span#motto {
+	color: #333333;
+	font-weight: bold;
+	left: 120px;
+	top: -27px;
+	position: relative;
+}
+#header #user_log {
+	top: 25px;
+}
+#header #company_name {
+	top: 43px;
+	position: absolute;
+	left: 716px;
+	font-size: 1.1em;
+}
+#header #user_nav, #user_log {
+	position: absolute;
+	top: 1px;
+	left: 735px;
+	font-size: 0.8em;
+}
+#header #user_nav li, #user_log li {
+	color: #004D69;
+	margin-left: 5px;
+	float: left;
+}
+#header #user_nav li a, #user_log li a {
+	font-weight: normal;
+	margin-right: 0px;
+}
+#header #user_nav li a.last, #user_log li a.last {
+	margin-right: 0;
+}
+#header #nav {
+	display: inline;
+	float: left;
+}
+#header #nav li {
+}
+#header #nav li a.main {
+	color: #666;
+	display: block;
+	font-size: 11px;
+	height: 20px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 61px;
+}
+#header #nav li a.main.active {
+}
+#header #nav li a.main:hover {
+	text-decoration: underline;
+}
+/* MENU STYLING */
+.dsearch {
+	margin-left: -30px;
+}
+.tabMainMenu a {
+	text-decoration: none;
+}
+.tabMainMenu a.hover {
+	text-decoration: underline;
+}
+.tabMainMenu tr td {
+	line-height: 21px;
+	width: 200px;
+	z-index: 9999;
+	font-size: 0.9em;
+	padding: 0px,0px,0px,0px;
+	margin: 0px,0px,0px,0px;
+	text-indent: 1px;
+	left: -20px;
+}
+
+.sub ul li a.active {
+}
+/* CONTENT *******************************************************/
+#content {
+	padding: 0 50px;
+}
+.left_col {
+	float: left;
+	width: 48%;
+}
+.right_col {
+	float: right;
+	width: 48%;
+}
+.left_col, .right_col {
+	clear: none;
+}
+#content div.box {
+	border: 1px #ccc solid;
+	padding: 10px;
+}
+#content div.box fieldset p input.tiny {
+	margin-left: 20px;
+}
+#content div.box fieldset p input.tiny.flip {
+	margin: 0 15px 0 0 !important;
+}
+#content div.box.stacked {
+	margin-bottom: 20px;
+}
+#content div.box select, #content div.box input {
+	margin-right: 0;
+}
+#container {
+	position: absolute;
+	top: 108px;
+	left: 480px;
+	height: 310px;
+	width: 410px;
+	/*background: url(  "../images/container/xtop.gif" ) no-repeat;*/
+	background-color: #F7F7F7;
+	clear: both;
+	overflow: hidden;
+	padding: 20px;
+	z-index: 1;
+}
+
+#container .loginbox {
+	top: 109px;
+	left: 481px;
+	width: 419px;
+	margin: 15px;
+	padding: 15px;
+	font-size: 0.9em;
+	height: 310px;
+
+}
+.span_text {
+	width: 70px;
+	padding: 0px;
+	margin: 0px;
+}
+.span_puff {
+	padding: 75px;
+}
+
+#container .left {
+	position: absolute;
+	left: -430px;
+	top: 0;
+	width: 20px;
+	height: 340px;
+	background-color: #F7F7F7;
+	/*background: url(  "../images/container/xleft.gif" ) no-repeat; */
+}
+#container .top-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20px;
+	height: 350px;
+	background-color: #F7F7F7;
+	/*background: url(  "../images/container/xtop-right.gif" ) no-repeat;*/
+}
+#container .footer {
+	position: absolute;
+	left: 4px;
+	background-color: #F7F7F7;
+	/*background: url("../images/container/xfoot.gif") no-repeat;*/
+	width: 442px;
+	height: 9px;
+	bottom: 103px;
+}
+#container .bottom-right {
+	position: absolute;
+	top: 3px;
+	left: 442px;
+	background-color: #F7F7F7;
+	/*background: url("../images/container/xbottom-right.gif") no-repeat;*/
+	width: 10px;
+	height: 10px;
+	bottom: 0;
+}
+
+.clsButtons {
+	width: auto;
+	font-size:1.1em;
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:Gray !important;
+	padding:0px,0px,0px,0px;
+	margin:0px,0px,0px,0px;
+	text-align:center;
+	font-family:Verdana !important;
+}
+
+/*Modal Popup*/
+.modalBackground {
+	background-color: Gray;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	z-index:100;
+}
+
+.modalPopup {
+	background-color: White;
+	border-width: 1px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 0px;
+}
+
+ul.popUpMessage
+{
+    list-style-type:square;    
+}

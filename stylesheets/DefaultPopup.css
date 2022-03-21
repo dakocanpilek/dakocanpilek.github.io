@@ -1,0 +1,81 @@
+.clsPnlDetails_Msg {
+	background-color: #e8e8e8;
+	width: 350px;
+	height: 250px;
+}
+.clsPnlDetails_RP {
+	background-color: #e8e8e8;
+	width: 500px;
+	height: 300px;
+}
+.clsTile_RP {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+#divHeader_RP {
+	padding-top: 20px;
+	padding-left: 175px;
+}
+.clsButOK {
+	background: url("../Images/OK.png") no-repeat;
+	font-family: Verdana;
+	font-size: 11px;
+	text-decoration: none;
+	width: 31px;
+	height: 25px;
+	border: none;
+}
+
+.clsButCancel {
+	background: url("../Images/Cancel.png") no-repeat;
+	font-family: Verdana;
+	font-size: 12px;
+	text-decoration: none;
+	width: 80px;
+	height: 25px;
+	border: none;
+	color: #333333;
+}
+.clsButPasswordOK {
+	background: url("../Images/PasswordOK.png") no-repeat;
+	font-family: Verdana;
+	font-size: 12px;
+	text-decoration: none;
+	width: 104px;
+	height: 25px;
+	border: none;
+	color: #333333;
+}
+.clsButClose {
+	background: url("../Images/Close.png") no-repeat;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	width: 24px;
+	height: 25px;
+	border: none;
+}
+.clsPnlDetails_About {
+	background-color: #e8e8e8;
+	width: 400px;
+	height: 280px;
+}
+.clsSpnLabel_popup_CP {
+	float: left;
+	width: 220px;
+}
+.clsPnlDetails_CP {
+	background-color: #e8e8e8;
+	width: 450px;
+	height: 350px;
+}
+.clsDivSpacer_popup {
+	padding-bottom: 4px;
+}
+.clsSpnLabel_popup {
+	float: left;
+	width: 130px;
+}
